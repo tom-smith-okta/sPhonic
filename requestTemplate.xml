@@ -1,0 +1,57 @@
+<orchestraRequest xmlns="http://www.orchestra.com/schema/free" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.orchestra.com/schema/freehttp://www.orchestra.com/schema/free-1.0.xsd">
+    <clientDetails>
+        <organisationId>fc3f073b-c9a4-4af5-b5bf-04ff0ffeba27</organisationId>
+        <username>OktaBanner</username>
+        <password>VT3bRYeVnPCP</password>
+    </clientDetails>
+    <requestDetails>
+        <requestId>TestTxn1</requestId>
+        <clientEventIdentifier>SphonicTest</clientEventIdentifier>
+        <requestDateTime>2015-11-24T13:44:30.0</requestDateTime>
+    </requestDetails>
+    <requestData>
+        <dataGroup>
+            <groupName>default</groupName>
+            <dataItem>
+                <elementName>/firstName</elementName>
+                <elementValue>%firstName%</elementValue>
+                <elementPattern>string()</elementPattern>
+            </dataItem>
+            <dataItem>
+                <elementName>/lastName</elementName>
+                <elementValue>%lastName%</elementValue>
+                <elementPattern>string()</elementPattern>
+            </dataItem>
+            <dataItem>
+                <elementName>/email</elementName>
+                <elementValue>%email%</elementValue>
+                <elementPattern>string()</elementPattern>
+            </dataItem>
+            <dataItem>
+                <elementName>/phone</elementName>
+                <elementValue>%phone%</elementValue>
+                <elementPattern>string()</elementPattern>
+            </dataItem>
+            <dataItem>
+                <elementName>/userType</elementName>
+                <elementValue>Test Users</elementValue>
+                <elementPattern>string()</elementPattern>
+            </dataItem>
+            <dataItem>
+                <elementName>/title</elementName>
+                <elementValue>Mr</elementValue>
+                <elementPattern>string()</elementPattern>
+            </dataItem>
+            <dataItem>
+                <elementName>/department</elementName>
+                <elementValue>Test Department</elementValue>
+                <elementPattern>string()</elementPattern>
+            </dataItem>
+            <dataItem>
+                <elementName>/displayName</elementName>
+                <elementValue>John Doe</elementValue>
+                <elementPattern>string()</elementPattern>
+            </dataItem>
+        </dataGroup>
+    </requestData>
+</orchestraRequest>
